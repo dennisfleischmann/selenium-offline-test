@@ -82,6 +82,6 @@ public class TestClass {
      */
     private WebDriver withFireFoxDriver() {
 
-        return new ChromeDriver();
+        return new FirefoxDriver();
     }
 }
