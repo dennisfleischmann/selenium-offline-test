@@ -64,6 +64,10 @@ public class TestClass {
 
     }
 
+    /**
+     * Setting the path of the drivers
+     * @return this -- helps for better configuration of selenium -- Chain pattern
+     */
     private TestClass setupDriver() {
         System.setProperty("webdriver.chrome.driver","/Users/dennisfleischmann/Dropbox/Dev/selenium/chromedriver");
         System.setProperty("webdriver.gecko.driver","/Users/dennisfleischmann/Dropbox/Dev/selenium/geckodriver");
